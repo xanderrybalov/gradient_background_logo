@@ -1,2 +1,3 @@
-# gradient_background_logo
-Gradient background with a centered logo
+# Gradient background with a centered logo
+
+![Navigation Hover](static/preview.jpg)
