@@ -4,7 +4,7 @@ export let logoAlt: string = 'Logo';
 export let caption: string = 'Bing';
 </script>
 
-<div class="logo-wrapper">
+<div class="logo-wrapper animated">
     <div class="logo-container">
         <img src={logoSrc} alt={logoAlt} class="logo-image" />
         <p class="logo-caption">{caption}</p>
@@ -13,6 +13,20 @@ export let caption: string = 'Bing';
 
   
   <style>
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05); 
+  }
+}
+
+.logo-wrapper.animated {
+    animation: pulse 2s infinite; 
+}
+
 .logo-wrapper {
     display: flex;
     flex-direction: column;
