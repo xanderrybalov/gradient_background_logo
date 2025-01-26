@@ -1,6 +1,5 @@
 <script>
-    import BackgroundContainer from '$lib/BackgroundContainer.svelte';
-    import Logo from '$lib/Logo.svelte';
+import { Logo, BackgroundContainer } from '$lib';
   </script>
   
   <BackgroundContainer>
