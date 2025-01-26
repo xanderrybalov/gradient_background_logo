@@ -3,12 +3,27 @@ export default {
   content: ['./src/**/*.{html,svelte,js,ts}'],
   theme: {
     extend: {
-      colors: {
-        'gradient-start': '#A4C4FC', 
-        'gradient-end': '#DBB4FD',
+      spacing: {
+        'logo-size': '14.5rem',
+        'logo-image-size': '8rem',
+        'logo-padding-left': '1rem',
+        'logo-caption-padding-top': '0.5rem',
       },
-      backgroundImage: {
-        'gradient-bg': 'linear-gradient(to bottom, var(--tw-gradient-stops))',
+      borderRadius: {
+        logo: '5rem',
+      },
+      boxShadow: {
+        logo: '0px 10px 15px rgba(0, 0, 0, 0.1)',
+      },
+      colors: {
+        'logo-bg': '#ffffff',
+        'logo-caption': '#505050',
+      },
+      fontSize: {
+        'logo-caption': '1.3rem',
+      },
+      fontFamily: {
+        logo: ['Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif'],
       },
     },
   },
